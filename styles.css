@@ -1,0 +1,108 @@
+.left-section {
+    background: rgb(189, 93, 56);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+}
+
+.main-section {
+    max-height: 100vh;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+}
+
+.profile-img {
+    height: 160px;
+    width: 160px;
+    border: 10px solid #ffffff33;
+    border-radius: 50%;
+}
+
+.right-section {
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+.nav-links {
+    margin: 20px;
+}
+
+.nav-item {
+    color: white;
+    font-weight: 600;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    margin: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.new-section {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 200px;
+    border-bottom: 2px solid gray;
+}
+
+.name {
+    font-size: 60px;
+    font-weight: 650;
+}
+
+.section-heading {
+    font-size: 60px;
+    font-weight: 650;
+}
+
+.surname {
+    color: rgb(189, 93, 56);
+}
+
+.contact-info {
+    display: flex;
+    font-size: 24px;
+}
+
+.email {
+    color: rgb(224, 134, 98);
+    margin-right: 50px;
+}
+
+.email:hover {
+    color: darkred;
+}
+
+.phone {
+    color: grey;
+}
+
+.phone:hover {
+    color: black;
+}
+
+.summary {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.common {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.table-bordered {
+    border: 2px solid;
+    text-align: center;
+    margin-top: 40px;
+}
